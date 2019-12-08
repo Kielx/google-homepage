@@ -2,13 +2,13 @@ body{
     display: grid;
     background-color: beige;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: auto repeat(5, 1fr);
 }
 
 .navbar-top{
     grid-column: 1 / 4;
     grid-row: 1;
-    display: flex;
+     display: flex;
     background-color: white;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -22,6 +22,7 @@ body{
     margin: 10px;
     color: grey;
 }
+
 
 
 
