@@ -2,13 +2,13 @@ body{
     display: grid;
     background-color: beige;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto repeat(5, 1fr);
+    grid-template-rows: auto auto auto repeat(2, 1fr);
 }
 
 .navbar-top{
     grid-column: 1 / 4;
     grid-row: 1;
-     display: flex;
+    display: flex;
     background-color: white;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -23,10 +23,6 @@ body{
     color: grey;
 }
 
-
-
-
-
 .loginbutton {
     box-shadow:inset 0px 34px 0px -15px #29bbff;
 	background-color:#2dabf9;
@@ -34,7 +30,6 @@ body{
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-
 	font-size:13px;
 	font-weight:bold;
 	padding:3px 12px;
@@ -48,4 +43,32 @@ body{
 .loginbutton:active {
 	position:relative;
 	top:1px;
+}
+
+.logo { 
+    grid-column: 1 / 4;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 109px;
+}
+.search { 
+    grid-column: 1 / 4;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+#searchform {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: auto;
+    width: 582px;
 }
