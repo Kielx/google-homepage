@@ -25,15 +25,11 @@ body{
 }
 
 .loginbutton {
-	/* box-shadow: inset 0px 34px 0px -15px #29bbff; */
-	/* background-color: #2dabf9; */
 	font-weight: bold;
-<<<<<<< HEAD
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-size: 13px;
-	/* font-weight: bold; */
 	padding: 0px 12px;
 	text-decoration: none;
 	line-height: 28px;
@@ -41,16 +37,6 @@ body{
 	border: 1px solid #4285f4;
 	outline: none;
 	border-radius: 2px;
-=======
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:13px;
-	font-weight:bold;
-	padding:3px 12px;
-	text-decoration:none;
-
->>>>>>> logo
 }
 
 .loginbutton:hover {
