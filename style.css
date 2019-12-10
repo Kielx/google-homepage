@@ -1,8 +1,15 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
 body{
     display: grid;
 	background-color: white;
 	grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto repeat(2, 1fr);
+	grid-template-rows: auto auto 1fr auto;
+
 }
 
 .navbar-top{
@@ -98,3 +105,17 @@ body{
 	
 }
 
+.footer{
+	align-self: baseline;
+    grid-column: 1 / 4;
+    grid-row: 4;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 10px;
+    
+}
