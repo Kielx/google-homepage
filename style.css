@@ -1,7 +1,7 @@
 html, body{
 	width: 100%;
 	height: 100%;
-	margin: 0;
+	margin: 0px;
 }
 
 body{
@@ -110,12 +110,9 @@ body{
     grid-column: 1 / 4;
     grid-row: 4;
     display: flex;
-    background-color: white;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    font-size: 13px;
-    margin-right: 10px;
+	background: #f2f2f2;
+	line-height: 40px;
+	border-top: 1px solid #e4e4e4;
+
     
 }
