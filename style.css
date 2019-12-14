@@ -138,10 +138,30 @@ body{
 	align-self: baseline;
     grid-column: 1 / 4;
     grid-row: 5;
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
 	background: #f2f2f2;
 	line-height: 40px;
 	border-top: 1px solid #e4e4e4;
+	font-family: arial, sans-serif;
+}
 
-    
+#footer-left *{
+    padding-left: 27px;
+	color: #5f6368;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 40px;
+}
+
+#footer-right *{
+    padding-right: 27px;
+	color: #5f6368;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 40px;
+}
+
+#footer-right {
+	margin-left: auto;
 }
