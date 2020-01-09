@@ -34,6 +34,7 @@ body{
 
 .loginbutton {
 	font-weight: bold;
+	background-color:#0688fa;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
@@ -47,8 +48,6 @@ body{
 	border-radius: 2px;
 }
 
-.loginbutton:hover {
-	background-color:#0688fa;
 
 }
 .loginbutton:active {
